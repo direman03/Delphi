@@ -1,0 +1,185 @@
+object frmCalculadora: TfrmCalculadora
+  Left = 0
+  Top = 0
+  Caption = 'Calculadora'
+  ClientHeight = 211
+  ClientWidth = 236
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 12
+    Top = 12
+    Width = 14
+    Height = 13
+  end
+  object edResultado: TEdit
+    Left = 22
+    Top = 8
+    Width = 207
+    Height = 21
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object btLimpar: TButton
+    Left = 10
+    Top = 48
+    Width = 49
+    Height = 25
+    Caption = 'CE'
+    TabOrder = 1
+    OnClick = btLimparClick
+  end
+  object bt7: TButton
+    Left = 10
+    Top = 79
+    Width = 49
+    Height = 25
+    Caption = '7'
+    TabOrder = 2
+    OnClick = NumeroClick
+  end
+  object bt8: TButton
+    Left = 65
+    Top = 79
+    Width = 49
+    Height = 25
+    Caption = '8'
+    TabOrder = 3
+    OnClick = NumeroClick
+  end
+  object bt9: TButton
+    Left = 120
+    Top = 79
+    Width = 49
+    Height = 25
+    Caption = '9'
+    TabOrder = 4
+    OnClick = NumeroClick
+  end
+  object btDividir: TButton
+    Left = 175
+    Top = 48
+    Width = 49
+    Height = 25
+    Caption = '/'
+    TabOrder = 5
+    OnClick = btDividirClick
+  end
+  object bt4: TButton
+    Left = 10
+    Top = 110
+    Width = 49
+    Height = 25
+    Caption = '4'
+    TabOrder = 6
+    OnClick = NumeroClick
+  end
+  object bt5: TButton
+    Left = 65
+    Top = 110
+    Width = 49
+    Height = 25
+    Caption = '5'
+    TabOrder = 7
+    OnClick = NumeroClick
+  end
+  object bt6: TButton
+    Left = 120
+    Top = 110
+    Width = 49
+    Height = 25
+    Caption = '6'
+    TabOrder = 8
+    OnClick = NumeroClick
+  end
+  object btMultiplicar: TButton
+    Left = 175
+    Top = 79
+    Width = 49
+    Height = 25
+    Caption = '*'
+    TabOrder = 9
+    OnClick = btMultiplicarClick
+  end
+  object bt1: TButton
+    Left = 10
+    Top = 141
+    Width = 49
+    Height = 25
+    Caption = '1'
+    TabOrder = 10
+    OnClick = NumeroClick
+  end
+  object bt2: TButton
+    Left = 65
+    Top = 141
+    Width = 49
+    Height = 25
+    Caption = '2'
+    TabOrder = 11
+    OnClick = NumeroClick
+  end
+  object bt3: TButton
+    Left = 120
+    Top = 141
+    Width = 49
+    Height = 25
+    Caption = '3'
+    TabOrder = 12
+    OnClick = NumeroClick
+  end
+  object btSubtrair: TButton
+    Left = 175
+    Top = 110
+    Width = 49
+    Height = 25
+    Caption = '-'
+    TabOrder = 13
+    OnClick = btSubtrairClick
+  end
+  object bt0: TButton
+    Left = 10
+    Top = 172
+    Width = 104
+    Height = 25
+    Caption = '0'
+    TabOrder = 14
+    OnClick = NumeroClick
+  end
+  object btPonto: TButton
+    Left = 120
+    Top = 172
+    Width = 49
+    Height = 25
+    Caption = '.'
+    TabOrder = 15
+    OnClick = btPontoClick
+  end
+  object btIgual: TButton
+    Left = 175
+    Top = 172
+    Width = 49
+    Height = 25
+    Caption = '='
+    TabOrder = 16
+    OnClick = btIgualClick
+  end
+  object btSomar: TButton
+    Left = 175
+    Top = 141
+    Width = 49
+    Height = 25
+    Caption = '+'
+    TabOrder = 17
+    OnClick = btSomarClick
+  end
+end
